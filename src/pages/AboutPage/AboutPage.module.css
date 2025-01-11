@@ -1,0 +1,30 @@
+.bg {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/bg-4.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+  }
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.content > h1{
+  font-size: 3rem;
+}
+
+.content > p {
+  text-align: justify;
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.main{
+    margin: auto;
+    border: 2px solid rgb(204, 255, 0);
+    padding: 20px;
+    width: 400px;
+}
+
+.main > form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main form label{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.main input{
+    font-size: 1.6rem;
+    padding-inline: 10px;
+    outline: none;
+}
+
+.main button{
+    align-self: end;
+    border: 1px solid yellow;
+    font-size: 1.4rem;
+    width: 5rem;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.main > h2{
+    font-size: 2rem;
+    color: yellow;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(212, 255, 0);
+    text-decoration: underline;
+}
